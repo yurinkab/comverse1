@@ -1,1 +1,5 @@
-.one {background: yellowgreen; height: 400px;}
+section {width:800px; background: blanchedalmond; opacity: 0.4; height: 100%; margin: 0 auto;}
+.one {background: yellowgreen; height: 200px;}
+.two {background: rosybrown; height: 600px;}
+.three {background: darkgoldenrod; height: 100px;}
+.four {background: darkkhaki; height: 300px;}
