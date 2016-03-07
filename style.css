@@ -1,5 +1,35 @@
-section {width:800px; background: blanchedalmond; opacity: 0.4; height: 100%; margin: 0 auto;}
-.one {background: yellowgreen; height: 200px;}
+body {padding: 0; margin: 0px; font-family: 'Roboto Condensed', sans-serif;}
+html {padding: 0; margin: 0px;}
+* {
+    box-sizing: border-box;
+}
+
+section {width:900px; background: blanchedalmond; opacity: 0.9; height: 100%; margin: 0 auto;}
+.header {background: yellowgreen; height: 100px;}
 .two {background: rosybrown; height: 600px;}
 .three {background: darkgoldenrod; height: 100px;}
 .four {background: darkkhaki; height: 300px;}
+.main_logo {display: inline-block;}
+nav {margin-left:20px;display: inline-block;}
+nav li {display:inline-block; margin-right: 15px;}
+input {margin-left: 20px;}
+.clear {clear: both;}
+.right_box {display: inline-block; position: relative;}
+.rounded {border-radius: 4px; box-shadow: none; border: 1px skyblue solid; padding: 3px;}
+.search_button {
+    background: url("img/searchBtn.png") 3px 3px no-repeat;
+
+    border: none;
+    cursor: hand;
+    border-left: none;
+    margin-left: -20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    border-left: 1px skyblue solid;
+
+}
